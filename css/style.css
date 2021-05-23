@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #f0f4c3;
+}
+
+
+/* Navbar */
+nav {
+  height: 75px;
+  opacity: 0.9;
+}
+
+.brand-logo img {
+  width: 100px !important;
+  height: 100px !important;
+  margin-top: -14px !important;
+}
+
+.nav-wrapper ul li a {
+  font-weight: 500;
+  font-size: 16px;
+}
+.nav-wrapper ul li a:hover {
+  opacity: 0.9;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: rgb(0,100,0);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff; /* dotted berfungsi untuk garis bawah */
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: #b2ff00;
+}
+
+/* Slider */
+.slides {
+  height: 600px !important;
+}
+.slider {
+  margin-top: -75px;
+  margin-bottom: 120px !important;
+}
+
+.slider h1 {
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.5) !important;
+}
+.caption {
+  margin-top: 100px;
+  text-align: center;
+}
+
+
+/* About Us */
+#about {
+  padding: 20px 0 40px 0;
+  }
+.about-header {
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.about-header h3 {
+  margin-left: 32px;
+  font-weight: 700;
+}
+
+.about-header h5 {
+  word-spacing: 4px;
+  font-weight: 700;
+}
+
+.card {
+  box-shadow: none;
+}
+
+.about-content {
+  height: fit-content;
+}
+
+.about-content .row .col p {
+  color: #000;
+  font-size: 18px;
+}
+
+.about-content .row .col img {
+  margin-top: 24px;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  border-radius: 6px;
+}
+
+.card-content span p {
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.card-content span i {
+  color: #000;
+}
+
+.card-reveal {
+  opacity: 0.95;
+}
+
+.card-reveal p {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .about-header h3 {
+      font-size: 32px;
+      margin-bottom: 16px;
+      margin-left: 24px;
+  }
+
+  .about-header h5 {
+      font-size: 20px;
+  }
+
+  .about-content .row .col img {
+      margin-top: 10px;
+  }
+
+  .about-content .row .col p {
+      font-size: 16px;
+  }
+
+  .card-content span p {
+      font-size: 14px;
+  }
+
+  .card-reveal h5 {
+      font-size: 18px;
+  }
+
+  .card-reveal p {
+      font-size: 16px;
+  }
+}
+
+
+/* menu */
+#menu {
+  padding: 20px 0 40px 0;
+}
+
+
+/* Order */
+.order .parallax-container {
+  height: 600px;
+}
+
+.order .parallax-container .parallax img {
+  opacity: 0.2 !important;
+}
+
+#order {
+  margin-bottom:30px ;
+  padding-top: 30px;
+  color: rgb(248, 247, 247);
+}
+
+.parallax .container .row .input-field {
+  margin-top: 40px;
+}
+
+.parallax-container .btn {
+  margin-left: 230px;
+}
+
+.parallax-container .container .row .col .select {
+  margin-left: 50px;
+}
+
+.parallax-container .container .row .col .select p {
+  font-size: 15px;
+  margin-top: -20px;
+}
+
+.parallax-container .container .row .col .card-panel {
+  background-color: transparent;
+  margin-left: 130px;
+  margin-bottom: -150px;
+}
+
+.ongkir {
+  color: white;
+  font-size: 20px;
+}
+
+.nikmati {
+  color: gray;
+  font-size: 15px;
+}
+
+
+/* contact us */
+#contact {
+  padding: 20px 0 40px 0;
+}
+
+
+/* footer 
+footer {
+  padding: 10px 0;
+} */
+
+/*footer*/
+
+.footer {
+  background: #000;
+  color: #8a8a8a;
+  font-size: 12px;
+  padding: 20px 0 10px;
+}
+
+.footer p {
+  color: #8a8a8a;
+}
+.footer h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-col-1, .footer-col-2 {
+  min-width: 250px;
+  margin-bottom: 10px;
+}
+
+
+.footer-col-1, .footer-col-2 {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;  
+}
+
+.app-logo {
+  margin-top: 20px;
+}
+
+.app-logo img {
+  width: 140px;
+}
+
+.footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+
+.copyright {
+  text-align: center;
+}
